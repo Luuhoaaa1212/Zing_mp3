@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="content">
+            <div class="menu-music-left">
+                <div class="music-playlist">
+                    <div class="zmp3-logo"></div>
+                    <ul>
+                        <li><i class="fa-solid fa-music"></i><a href="#">Cá Nhân</a></li>
+                        <li><i class="fa-regular fa-circle-dot"></i><a href="#">Khám Phá</a></li>
+                        <li><i class="fa-solid fa-chart-bar"></i><a href="#">#zingchart</a></li>
+                        <li><i class="fa-solid fa-radio"></i><a href="#">Radio</a></li>
+                        <li><i class="fa-solid fa-id-card"></i><a href="#">Theo Dõi</a></li>
+                    </ul>
+                    <p></p>
+                </div>
+                <div class="music-playlist music-top">
+                    <ul>
+                        <li><i class="fa-solid fa-music"></i><a href="#">Nhạc mới</a></li>
+                        <li><i class="fa-regular fa-circle-dot"></i><a href="#">Thể Loại</a></li>
+                        <li><i class="fa-solid fa-star"></i></i><a href="#">Top 100</a></li>
+                        <li><i class="fa-solid fa-video"></i><a href="#">MV</a></li>
+                       
+                    </ul>
+                    <div class="btn-login">
+                        <span>Đăng nhập để khám phá playlist dành riêng cho bạn</span>
+                        <button>Đăng Nhập</button>
+                    </div>
+                    <div class="btn-login upgrade-vip">
+                        <span>Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                        <button>Nâng cấp VIP</button>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="music-create-playlist-new">
+                <i class="fa-solid fa-plus"></i>
+                  <h2>Tạo playlist mới</h2>      
+            </div>
+           
+            <div class="music-content">
+                <header id="music-header">
+                    <div class="music-header-icon-left ml-60">
+                        <i class="fa-solid fa-arrow-left"></i>   
+                        <i class="fa-solid fa-arrow-right ml-30"></i>     
+                    </div>
+                    <div class="music-header-seach-input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm bài hát,nghệ sĩ,lời bài hát">
+                    </div>
+                    <div class="music-header-icon-right">
+                        <!-- icons 1 -->
+                       <div class="iconItem-radius">
+                        <i class="fa-solid fa-shirt"></i>
+                       </div>
+                        <!-- icons 2 -->
+                        <div class="iconItem-radius">
+                            <i class="fa-sharp fa-solid fa-gem"></i>
+                           </div>
+                            <!-- icons 3 -->
+                       <div class="iconItem-radius">
+                        <i class="fa-solid fa-upload"></i>
+                       </div>
+                        <!-- icons 4 -->
+                        <div class="iconItem-radius">
+                            <i class="fa-solid fa-gear"></i>        
+                           </div>
+                            <!-- icons 5 -->
+                       <div class="iconItem-radius">
+                        <i class="fa-solid fa-user"></i>
+                       </div>
+                    </div>
+                </header>
+
+                <div class="music-content-body">
+                    <div class="img-slider">
+                        <img src="./acsset/image/slider-1.jpg" alt="">
+                    </div>
+                    <div class="nex-prev">
+                        <i class="fa-solid fa-arrow-left ml-30"></i>   
+                        <i class="fa-solid fa-arrow-right right-0"></i>
+                    </div>
+                  
+                    <div class="list-songs">
+                     
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="music-songs-info">
+                <div class="medie-left">
+                    <i class="flashing"></i>
+                    <img src="./acsset/image/AcMa.jfif" alt="">
+                   
+                </div>
+                <div class="medie-content ml-30">
+                    <h4>Ac ma</h4>
+                    <a href="#">AcMa</a>
+                </div>
+                <div class="media-right ml-30">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-ellipsis-vertical ml-30"></i>
+                </div>
+            </div>
+            <div class="music-songs-control">
+                <div class="level-item">
+                       <div class="actions">
+                        <button><i class="fa-solid fa-shuffle"></i></button>
+                        <button><i class="fa-solid fa-backward-step"></i></button>
+                        <div class="player">
+                            <i class="fa-solid fa-pause"></i>
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <button><i class="fa-solid fa-forward-step"></i></button>
+                        <button><i class="fa-solid fa-repeat"></i></button>
+                       </div>
+                </div>
+                <div class="level-audio">
+                    <span>00:14</span>
+                    <input id="progress" class="progress" type="range">
+                    <audio id="audio" src=""></audio>
+                    <span>5:14</span>
+                </div>
+            </div>
+            <div class="music-songs-sound">
+
+                
+            </div>
+
+        </footer>
+    </div>
+    
+    <script src="main.js"></script>
+   
+</body>
+</html>
